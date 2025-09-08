@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #111;
+    border-bottom: 2px solid #C1121F; /* detalhe vermelho Porsche */
+  }  
+
+  header img {
+    width: 150px;
+  } 
+
+body {
+  background-color: #0C0C0C;
+}
+
+
+#macan a {
+  color: #C1121F;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#macan a:hover {
+  color: #D4AF37;
+}
+
+
+.info img {
+  width: 500px;
+  max-width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.info p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #D4AF37; 
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
